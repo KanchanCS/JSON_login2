@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Employee Form using JPDB</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header text-center">
+        <h2>Student Enrollment Form</h2>
+      </div>
+      <form id="stuForm" method="get">
+        <div class="form-group"> 
+          <label>Roll No:</label>
+          <input class="form-control" type="text" id="rollno" autofocus=true name="roll-no" />
+        </div>
+        <div class="form-group">
+          <label>Full Name:</label>
+          <input type="text" id="fullname" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label>Class:</label>
+          <input type="text" id="class" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label>Birth Date:</label>
+          <input type="date" id="birthdate" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label>Address:</label>
+          <input type="text" id="address" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label>Enrollment Date:</label>
+          <input type="date" id="enrolldate" class="form-control" />
+        </div>
+        <div class="form-group text-center py-5">
+          <button
+            type="button"
+            class="btn btn-lg btn-primary"
+            id="save"
+            onclick="saveData()"
+            
+          >
+            Save
+          </button>
+          <button
+            type="button"
+            class="btn btn-lg btn-primary"
+            id="change"
+            onclick="changeData()"
+            
+          >
+            Change
+          </button>
+          <button
+            type="button"
+            class="btn btn-lg btn-primary"
+            id="reset"
+            onclick="restForm()"
+            
+          >
+            Reset
+          </button>
+        </div>
+      </form>
+    </div>
+    <script  src="http://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+   <script src="js/index.js"></script>
+
+</body>
+</html>
+
+
