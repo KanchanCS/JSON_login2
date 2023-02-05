@@ -53,32 +53,32 @@ function validateData() {
     enrolldate_ = $('#enrolldate').val();
   
     if (rollno_ === '') {
-      alert("Employee ID missing");
+      alert("Stu rollno missing");
       $('#rollo').focus();
       return "";
     }
     if (fullname_ === '') {
-      alert("Employee NAME missing");
+      alert("Stu NAME missing");
       $('#fullname').focus();
       return "";
     }
     if (class_ === '') {
-      alert("Employee SALARY missing");
+      alert("Stu class missing");
       $('#class').focus();
       return "";
     }
     if (address_ === '') {
-      alert("Employee hra missing");
+      alert("Stu address missing");
       $('#address').focus();
       return "";
     }
     if (birthdate_ === '') {
-      alert("Employee da missing");
+      alert("Stu birthdate missing");
       $('#birthdate').focus();
       return "";
     }
     if (enrolldate_ === '') {
-      alert("Employee deduct missing");
+      alert("Stu enrolldate missing");
       $('#enrolldate').focus();
       return "";
     }
